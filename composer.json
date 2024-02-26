@@ -1,0 +1,28 @@
+{
+    "name": "invays/synonymizer",
+    "description": "Rewrite your content with ease using this simple script. This script automatically generates unique text based on a given string of synonyms. Improve readability, adapt to your audience.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Invays\\Synonymizer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Invays\\Synonymizer\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arindam Paul",
+            "email": "ayan.paul1904@gmail.com"
+        }
+    ]
+}
