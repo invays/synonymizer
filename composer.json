@@ -3,6 +3,7 @@
     "description": "Rewrite your content with ease using this simple script. This script automatically generates unique text based on a given string of synonyms. Improve readability, adapt to your audience.",
     "type": "library",
     "minimum-stability": "stable",
+    "license": "MIT",
     "require": {
         "php": "^8.0"
     },
