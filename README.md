@@ -7,7 +7,7 @@ Script will help developer and seo-specialist for making unique meta-description
 Install the package via Composer. Run the Composer require command from the Terminal:
 
 ```
-composer require vitalybaev/google-merchant-feed
+composer require invays/synonymizer
 ```
 
 ## Example
