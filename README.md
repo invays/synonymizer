@@ -21,7 +21,6 @@ $synonymize = new Synonymizer();
 $synonymize->text = "This is a test [test1|test2|test3] of [test4|test5|test6].";
 
 $synonymize->synonimaizer()
-
 ```
 
 Use custom user variable.
@@ -35,7 +34,6 @@ $synonymize->delimiter = ".";
 $synonymize->text = "This is a test {test1.test2.test3} of {test4.test5.test6}.";
 
 $synonymize->synonimaizer()
-
 ```
 
 Use static string for seo-tags. An identifier must be specified to generate a static text. 
@@ -47,5 +45,4 @@ $synonymize = new Synonymizer();
 $synonymize->text = "This is a test {test1.test2.test3} of {test4.test5.test6}.";
 
 $synonymize->synonimaizer(12344) 
-
 ```
