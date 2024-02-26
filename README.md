@@ -14,7 +14,7 @@ composer require invays/synonymizer
 
 Use included variables for template.
 
-```
+```php
 use Invays\Synonymizer\Synonymizer;
 
 $synonymize = new Synonymizer();
@@ -24,7 +24,7 @@ $synonymize->synonimaizer()
 ```
 
 Use custom user variable.
-```
+```php
 use Invays\Synonymizer\Synonymizer;
 
 $synonymize = new Synonymizer();
@@ -38,7 +38,7 @@ $synonymize->synonimaizer()
 
 Use static string for seo-tags. An identifier must be specified to generate a static text. 
 
-```
+```php
 use Invays\Synonymizer\Synonymizer;
 
 $synonymize = new Synonymizer();
